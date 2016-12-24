@@ -1,0 +1,212 @@
+
+
+
+
+
+.navbar-default
+{
+    
+    
+    background-color:rgba(78, 76, 76, 0.6) ;
+    border-color:transparent;
+}
+.navbar-nav
+{
+    
+    
+  font-family:calibri;
+    font-size:1.5em;
+    margin:35px 100px 0;
+    
+}
+.navbar-default .navbar-nav li a
+{
+    
+    color:#dd5b5b;
+}
+.navbar-default .navbar-nav li a:hover
+{
+    
+    color:#000000;
+}
+.logo h1
+{ font-family:cambria;
+    color:#c72c2c;
+    margin:15px 0 0 100px;
+    text-shadow: 1px 1px 1px black;
+}
+/*media queries*/
+@media(max-width:768px){
+    
+    .logo h1{
+        
+        margin:15px 0 0 12px;
+    }
+    .navbar-nav{
+        
+        margin:0;
+        background-color: rgba(78, 76, 76, 0.6);
+    }
+    .navbar-toggle
+    {
+        
+        margin-top:20px;
+    }
+    #slider
+    {
+        width: 100%;
+           background-size:cover;
+        text-align: center;
+    }
+    #about
+    {
+        text-align: center;
+    }
+ 
+}
+
+
+#slider
+{
+    
+
+   
+    width:100%;
+    background-size:cover;
+     
+    
+}
+.item
+{
+    color: #c72c2c;
+    padding:300px 0;   
+     
+    }
+
+#pic1{
+ width:100%;
+    background-size:cover;
+    background-image: url(images/photo1.jpg);
+     height:100%;
+}
+#pic2{
+    width:100%;
+    background-size:cover;
+    background-image: url(images/photo2.jpg);
+    height:100%;
+}
+#pic3
+{ 
+    width:100%;
+    background-size:cover;
+    background-image: url(images/photo3.jpg);
+    height: 100%;
+}
+.item h3
+{
+    font-family:cambria;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.item p
+{
+    font-family: calibri;
+    font-size: 2.0em;
+}
+.carousel-indicators li
+{
+    background-color: white;
+   border-color:white;
+    margin:5px;
+}
+.carousel-indicators li:active
+{
+    background-color:#c72c2c;
+border-color:#c72c2c;
+;
+    margin:5px;
+}
+.btn-danger
+{
+   
+
+   
+   font-family:calibri;
+}
+.btn-danger:hover
+{
+    
+    background-color: crimson;
+}
+.row{
+    color:black;
+font-family:calibri;
+    margin: 20px;
+    padding: 30px;
+}
+#kik
+{
+    padding: 100px 0px;
+}
+.row h3
+{
+    
+    font-family: cambria;
+    color:#c72c2c;
+}
+.row i
+{
+    font-size: 2.8em;
+    color: #c72c2c;
+}
+#about h1
+{
+     font-family: cambria;
+    color:#c72c2c;
+    padding:15px;
+    margin: 20px
+        
+}
+.row p
+{
+    font-size: 1.0em;
+}
+#halla
+{
+    
+    background-image: url(images/photo4.jpg);
+    width: 100%;
+    background-size:cover;
+    border-radius: 0;
+    padding:300px 0 300px;
+}
+#halla h3
+{
+    text-align: center;
+    font-weight: 600;
+}
+#contact{
+padding: 20px 0px 20px;
+}
+#contact  a
+{
+    
+   font-family: cambria;
+    color:#c72c2c;
+    margin:5px;
+    text-decoration: none;
+}
+#contact p
+{
+    
+    font-weight: 300;
+}
+#contact i
+{
+    color:#c72c2c;
+}
+.fa:hover
+{
+color: crimson;
+}
+
